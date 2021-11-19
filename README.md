@@ -12,9 +12,9 @@ go to releases: https://github.com/mozilla/DeepSpeech/releases
 Download deepspeech-0.9.3-models.scorer and deepspeech-0.9.3-models.pbmm
 
 # commands:
-1. create new folder - mkdir deepspeech
+create new folder - mkdir deepspeech
 
-2. cd deepspeech
+cd deepspeech
 
 (check python version, deepspeech is not compatible with 3.7 and 3.8 python)
 
@@ -35,9 +35,9 @@ deepspeech>pip install deepspeech
 
 # to use microphone to convert voice to text
 
-1. Sync mic_vad_streaming content
+Sync mic_vad_streaming content
 
-2. deepspeech>cd mic_vad_streaming
+deepspeech>cd mic_vad_streaming
 
 # install all requirements:
 
