@@ -6,19 +6,23 @@ deepspeech project:
 https://github.com/mozilla/DeepSpeech
 
 Setup:
+
 go to releases: https://github.com/mozilla/DeepSpeech/releases
+
 Download deepspeech-0.9.3-models.scorer and deepspeech-0.9.3-models.pbmm
 
 Commands:
 create new folder
->mkdir deepspeech
->cd deepspeech
+mkdir deepspeech
+cd deepspeech
+
 (check python version, deepspeech is not compatible with 3.7 and 3.8 python)
 deepspeech>python
 Python 3.6.7 (v3.6.7:6ec5cf24b7, Oct 20 2018, 13:35:33) [MSC v.1900 64 bit 
 (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
->>> quit()
+quit()
+
 deepspeech>python -m venv .
 deepspeech>Scripts\activate (deepspeech) 
 deepspeech>pip install deepspeech
