@@ -13,29 +13,43 @@ Download deepspeech-0.9.3-models.scorer and deepspeech-0.9.3-models.pbmm
 
 Commands:
 create new folder
+
 mkdir deepspeech
+
 cd deepspeech
 
 (check python version, deepspeech is not compatible with 3.7 and 3.8 python)
+
 deepspeech>python
+
 Python 3.6.7 (v3.6.7:6ec5cf24b7, Oct 20 2018, 13:35:33) [MSC v.1900 64 bit 
 (AMD64)] on win32
+
 Type "help", "copyright", "credits" or "license" for more information.
+
 quit()
 
 deepspeech>python -m venv .
+
 deepspeech>Scripts\activate (deepspeech) 
+
 deepspeech>pip install deepspeech
 
 To use microphone to convert voice to text :
 https://github.com/mozilla/DeepSpeech-examples
 
 copy mic_vad_streaming folder to your deepspeech folder
+
 deepspeech>cd mic_vad_streaming
+
 To install all requirements:
+
 deepspeech\mic_vad_streaming>pip 
+
 install -r requirements.txt
+
 deepspeech\mic_vad_streaming>python 
+
 mic_vad_streaming.py -m deepspeech\deepspeech-
 0.9.3-models.pbmm -s deepspeech\deepspeech-0.9.3-
 models.scorer
