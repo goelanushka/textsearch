@@ -2,16 +2,16 @@
 A prototype that converts voice into text search keywords using open-source DeepSpeech API (ML-based Python API by Mozilla), searches the text keywords in the given docx file, and highlights the found results
 
 
-deepspeech project:
+# deepspeech project:
 https://github.com/mozilla/DeepSpeech
 
-Setup:
+# Setup:
 
 go to releases: https://github.com/mozilla/DeepSpeech/releases
 
 Download deepspeech-0.9.3-models.scorer and deepspeech-0.9.3-models.pbmm
 
-Commands:
+# Commands:
 create new folder
 
 mkdir deepspeech
@@ -42,7 +42,7 @@ copy mic_vad_streaming folder to your deepspeech folder
 
 deepspeech>cd mic_vad_streaming
 
-To install all requirements:
+# To install all requirements:
 
 deepspeech\mic_vad_streaming>pip 
 
