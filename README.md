@@ -5,18 +5,16 @@ A prototype that converts voice into text search keywords using open-source Deep
 # deepspeech project:
 https://github.com/mozilla/DeepSpeech
 
-# Setup:
+# setup:
 
 go to releases: https://github.com/mozilla/DeepSpeech/releases
 
 Download deepspeech-0.9.3-models.scorer and deepspeech-0.9.3-models.pbmm
 
-# Commands:
-create new folder
+# commands:
+1. create new folder - mkdir deepspeech
 
-mkdir deepspeech
-
-cd deepspeech
+2. cd deepspeech
 
 (check python version, deepspeech is not compatible with 3.7 and 3.8 python)
 
@@ -35,22 +33,17 @@ deepspeech>Scripts\activate (deepspeech)
 
 deepspeech>pip install deepspeech
 
-To use microphone to convert voice to text :
-https://github.com/mozilla/DeepSpeech-examples
+# to use microphone to convert voice to text
 
-copy mic_vad_streaming folder to your deepspeech folder
+1. Sync mic_vad_streaming content
 
-deepspeech>cd mic_vad_streaming
+2. deepspeech>cd mic_vad_streaming
 
-# To install all requirements:
+# install all requirements:
 
-deepspeech\mic_vad_streaming>pip 
+deepspeech\mic_vad_streaming>pip install -r requirements.txt
 
-install -r requirements.txt
-
-deepspeech\mic_vad_streaming>python 
-
-mic_vad_streaming.py -m deepspeech\deepspeech-
+deepspeech\mic_vad_streaming>python mic_vad_streaming.py -m deepspeech\deepspeech-
 0.9.3-models.pbmm -s deepspeech\deepspeech-0.9.3-
 models.scorer
 
