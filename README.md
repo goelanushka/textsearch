@@ -47,4 +47,4 @@ deepspeech\mic_vad_streaming>python mic_vad_streaming.py -m deepspeech\deepspeec
 0.9.3-models.pbmm -s deepspeech\deepspeech-0.9.3-
 models.scorer
 
-Last command will listen to voice, convert it to text, search and highlight keyword in a document
+Last command will listen to voice, convert it to text, and search and highlight keyword in the document
